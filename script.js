@@ -14,7 +14,7 @@ async function fetchDefinition(word) {
     resultContainer.innerHTML = "<p>Searching...</p>"; // Visual feedback
     
     try {
-        const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/tourism`);
+        const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
         
         // If the word isn't found
         if (!response.ok) {
