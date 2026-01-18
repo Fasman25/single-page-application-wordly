@@ -1,33 +1,8 @@
-# //Wordly Dictionary SPA
+# Wordly Dictionary SPA
 
 This is a Single Page Application built using HTML, CSS and JavaScript, an online learning platform simulating an interactive dictionary feature.
 It allows users to search ,save and preview words without page reloads as a result of its data driven web applications that fetches information from external APIs
 ## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
 
 ## Technologies used
 HTML: For structuring the web page.
